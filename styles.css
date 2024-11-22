@@ -1,0 +1,136 @@
+/* Fondo del sitio */
+body {
+    background-color: #000000; /* Marrón oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #6e4b34; /* Marrón claro que resalta */
+}
+
+.navbar a {
+    background-color:  #6e4b34; !important; /* Texto blanco */
+}
+
+/* Footer */
+footer {
+    background-color: #6e4b34; /* Marrón claro */
+    color: #ffffff;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #ffffff; /* Blanco */
+}
+
+/* Párrafos */
+p {
+    color: #ffffff; /* Blanco */
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #8c5e3c; /* Marrón más claro */
+    border: none;
+    color: #ffffff; /* Texto blanco */
+}
+
+.btn-primary:hover {
+    background-color: #a4744f; /* Marrón claro más intenso */
+}
+
+/* Tablas */
+.table {
+    background-color: #6e4b34; /* Marrón claro */
+    color: #ffffff;
+    border-color: #ffffff; /* Bordes blancos */
+}
+
+.table th {
+    background-color: #8c5e3c; /* Marrón más claro */
+    color: #ffffff;
+}
+
+.table td {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Links */
+a {
+    color: #a4744f; /* Marrón claro más intenso */
+}
+
+a:hover {
+    color: #c78c66; /* Marrón más cálido */
+}
+/* Colores personalizados */
+.bg-light-brown {
+    background-color: #6e4b34; /* Marrón claro */
+}
+
+.text-white {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+/* Títulos de las tarjetas */
+.card-title {
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+/* Botones */
+.btn-accent {
+    background-color: #8c5e3c; /* Marrón más claro */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-accent:hover {
+    background-color: #a4744f; /* Marrón cálido */
+    color: #ffffff;
+}
+
+/* Texto de las tarjetas */
+.card-text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+/* Estilo del Header */
+.header-banner {
+    background-image: url('https://www.sostenibilidad.com/media/597241/comunidades-indigenas.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* La imagen cubre todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 300px; /* Ajusta la altura del header */
+    display: flex; /* Para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+}
+
+/* Texto dentro del Header */
+.header-banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombras al texto */
+}
+
+.header-banner p {
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Sombras al texto */
+}

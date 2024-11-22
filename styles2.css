@@ -1,0 +1,116 @@
+/* Fondo del sitio */
+body {
+    background-color: #000000; /* Marrón oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #6e4b34; /* Marrón claro */
+}
+
+.navbar a {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+/* Footer */
+footer {
+    background-color: #6e4b34; /* Marrón claro */
+    color: #ffffff;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #ffffff; /* Blanco */
+}
+
+/* Párrafos */
+p {
+    color: #ffffff; /* Blanco */
+}
+
+/* Acordeón */
+.accordion-button {
+    background-color: #8c5e3c; /* Marrón más claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #a4744f; /* Marrón más claro más intenso */
+    color: #ffffff;
+}
+
+.accordion-body {
+    background-color: #6e4b34; /* Marrón claro */
+    color: #ffffff;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #6e4b34; /* Marrón claro */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.card img {
+    border-bottom: 3px solid #8c5e3c; /* Línea de contraste */
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #8c5e3c; /* Marrón más claro */
+    border: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #a4744f; /* Marrón más intenso */
+}
+
+/* Paginación */
+.page-link {
+    background-color: #8c5e3c; /* Marrón más claro */
+    color: #ffffff;
+    border: none;
+}
+
+.page-link:hover {
+    background-color: #a4744f; /* Marrón más cálido */
+    color: #ffffff;
+}
+/* Estilo del Header */
+.header-banner {
+    background-image: url('https://www.sostenibilidad.com/media/597241/comunidades-indigenas.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* La imagen cubre todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 300px; /* Ajusta la altura del header */
+    display: flex; /* Para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+}
+
+/* Texto dentro del Header */
+.header-banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombras al texto */
+}
+
+.header-banner p {
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Sombras al texto */
+}
